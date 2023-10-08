@@ -1,0 +1,49 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul#opciones li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FC7300;
+}*/
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: #b5cbdd;
+}
+
+/*=== Aplicando CSS al encabezado===*/
+
+#logo{
+    /*width: 25%;*/
+    margin: auto;
+    /*padding-top: 10px;*/
+}
+
+#piePagina{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #4871e4;
+    color: #47270d;
+}
+
+#redesSociales{
+    display: flex;
+    gap: 10px;
+}
+
+ion-icon{
+    color: #322316;
+    font-size: 3rem;
+}
+
+
