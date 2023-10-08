@@ -9,6 +9,9 @@ ul#opciones li a{
     font-size: 1.2rem;
     color: #FC7300;
 }*/
+h1,h2,h3,h4,h5,h6,p{
+    color: aliceblue;
+}
 img{
     width: 100%;
 }
@@ -17,17 +20,13 @@ ul{
 }
 
 body{
-    background-color: #b5cbdd;
+    background-color: #363b3f;
 }
 
 /*=== Aplicando CSS al encabezado===*/
 
-#logo{
-    /*width: 25%;*/
-    margin: auto;
-    /*padding-top: 10px;*/
-}
 
+/*
 #piePagina{
     display: grid;
     justify-items: center;
@@ -46,4 +45,4 @@ ion-icon{
     font-size: 3rem;
 }
 
-
+*/

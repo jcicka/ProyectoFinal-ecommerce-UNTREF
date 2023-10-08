@@ -15,6 +15,9 @@ console.log(codigoSeleccionado);
 let codigoFinal = document.getElementById('codigo');
 let nombre = document.getElementById('nombre');
 let imagen = document.getElementById('imagen');
+let preparacion = document.getElementById('preparacion');
+let ingredientes = document.getElementById('ingredientes');
+let tipo = document.getElementById('tipo');
 
 //Tomo los datos del localStorage
 let detalleProducto = JSON.parse(localStorage.getItem('detallesProducto'))
@@ -24,9 +27,11 @@ console.log(arrayDetalle);
 
 //Muestro de manera dinámica los detalles del producto que tengo en el localStorage
 codigoFinal.innerHTML = `Código del Producto: ${codigoSeleccionado}`;
-nombre.innerHTML = `Nombre del producto : ${arrayDetalle.strDrink}`;
+nombre.innerHTML = `Nombre del trago : ${arrayDetalle.strDrink}`;
+tipo.innerHTML = `Tipo del trago : ${arrayDetalle.strAlcoholic}`;
 imagen.innerHTML = `<img class="w-100" src="${arrayDetalle.strDrinkThumb}" alt="${arrayDetalle.strDrink}"/>`
-
+preparacion.innerHTML =`Preparación: ${arrayDetalle.strInstructionsES}`
+ingredientes.innerHTML =`Ingredientes: ${arrayDetalle.strIngredient1}, ${arrayDetalle.strIngredient2}, ${arrayDetalle.strIngredient3}, ${arrayDetalle.strIngredient4}, ${arrayDetalle.strIngredient5}, ${arrayDetalle.strIngredient6}, ${arrayDetalle.strIngredient7}, `
 //Capturo el botón que me permite regresar y además borrar todo lo que tengo en mi localStorage
 let botonRegresar = document.getElementById('botonRegresar');
 botonRegresar.addEventListener('click', function(){

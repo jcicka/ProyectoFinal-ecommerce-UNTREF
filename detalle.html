@@ -11,40 +11,45 @@
 </head>
 
 <body>
-    <!-- <section class="row m-auto ">
-        <article class="col-md-4 m-auto">
-            <h1 class="text-center">Detalle del Producto</h1>
-            <hr>
-            <section class="detalle">
-                <h4 class="text-center" id="codigo"></h4>
-                <h4 class="text-center" id="nombre"></h4>
-                <div id="imagen"></div>
-            </section>
-                <a class="btn btn-outline-danger d-block" id="botonRegresar" href="#">Inicio</a>
-        </article>
-    </section> -->
-    <h1 class="te">Detalle de la Bebida seleccionada</h1>
-
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <div id="imagen"></div>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Detalle del la Bebida</h5>
-              <h4 class="card-title" id="codigo"></h4>
-              <h4 class="card-title" id="nombre"></h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              <a class="btn btn-outline-danger d-block" id="botonRegresar" href="#">Inicio</a>
-            </div>
+  
+  <h1 class="text-center p-4">Detalle de la Bebida seleccionada</h1>
+  <section class="p-3">
+    <div class="card bg-secondary mb-3 p-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <div id="imagen"></div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="bs-body-bg ">Detalle del la Bebida</h5>
+            <h6 class="" id="codigo"></h6>
+            <h6 class="" id="nombre"></h6>
+            <h6 class="" id="tipo"></h6>
+            <p class="" id="ingredientes"></p>
+            <p class="" id="preparacion"></p>            
+            <a class="btn btn-primary d-block" id="botonRegresar" href="#">Inicio</a>
           </div>
         </div>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/master.js"></script>
-    <script src="./js/detalle.js"></script>
+    </div>
+  </section>
+  <footer id="piePagina">
+    <div id="redes"> 
+        <ul id="redesSociales">
+            <li><a href="https://www.instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.Linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <!-- <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-xl" style="color: #FC7300;"></i></a></li> -->
+        </ul>
+    </div>
+    <!-- <div id="subir">
+        <a href="#container"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+    </div> -->
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/master.js"></script>
+  <script src="./js/detalle.js"></script>
 </body>
 
 </html>
